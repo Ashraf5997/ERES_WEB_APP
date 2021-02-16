@@ -238,7 +238,7 @@ return(
        <div className="main_div_addE">
          <div className="center_div_addE">
            <p className="p1" style={{backgroundColor:'rgb(11, 5, 102)'}}>
-                      <BsFillPersonPlusFill /> Add Employee Data
+                      <BsFillPersonPlusFill /> Add Employee Data [GITHUB]
            </p> <hr />
            <Form onSubmit = { handleSubmit }>
                <Row>
