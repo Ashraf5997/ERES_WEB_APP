@@ -1,0 +1,35 @@
+
+body{
+  
+    background-image: url("./officeImages/pic7.png");
+    width: 100%;
+   
+}
+.Cards{
+
+    color:white; 
+    text-align: left;
+   background-color:rgb(36, 4, 109);
+    height:50px;
+    border:1px solid rgb(255, 255, 255);
+    font-size: 22px;
+    box-shadow: 5px 5px 15px  -5px rgb(10, 10, 10);
+    border-radius:50px;
+    width:60px;
+    
+}
+.cardbody{
+
+   background-color:white;
+   /* background-image: url("./officeImages/pic5.png");*/
+   border:none;
+    
+   
+}
+.cardtitle{
+    color:rgb(8, 8, 8);
+    background-color:white;
+  padding:20px;
+   
+
+}

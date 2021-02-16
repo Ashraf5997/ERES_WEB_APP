@@ -1,0 +1,125 @@
+
+/*
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}*/
+
+.App{
+  width:100%; height: 100%; 
+}
+
+body
+{
+  margin:0;padding: 0;
+}
+.sidebar{
+  height:60px ; width:60px ; background-color:rgb(255,255,255); 
+}
+.sidebarList{
+    height: auto;  width: 100%; padding: 0;
+}
+.sidebarList .row{
+  width:100%; height: 60px; background-color: rgb(255,2555,255);list-style-type:none;
+  margin: 0; display: flex; flex-direction: row; color: antiquewhite; justify-content: center;align-items: center;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.row #icon
+{
+  flex: 100%; display: grid; place-items: center;
+}
+row #title{
+  flex : 20%;
+}
+.sidebarList .row:hover
+{
+  background-color: rgb(105, 97, 224);cursor: pointer;
+}
+
+.Spinner{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;   padding-top: 180px;
+}
+
+.main_div_Table{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+     
+}
+.center_div_Table
+{
+  width:80%;
+  height: 100%;
+  border-radius: 50;
+}
+.empLine{
+  cursor: pointer;
+
+}
+
+.employeesCard
+{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+

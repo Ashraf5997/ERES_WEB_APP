@@ -1,0 +1,68 @@
+
+/* for Home page */
+body{
+    background-color: white;
+    margin-top: -150px;
+}
+.jumbotron{
+    text-align: center;height:220px;
+}
+  .heading1{
+      color:black;text-decoration: underline;color:rgb(39, 129, 133);
+  }
+  .hp1{
+      font-family:'Courier New', Courier, monospace;margin-top:-2px;color:rgb(213, 222, 223);
+      background-color:rgb(39, 129, 133);height: 40px;padding-top:10px ;font-weight: bold;font-size: 20px;
+  }
+  .body1{
+      background-color: rgb(143, 61, 61);text-align:center;margin-top: 70px;
+  }
+  .formlogin{
+      width:220px;margin-left:10px;margin-top: 25px;height: 280px;
+  }
+  .pic1{
+      width:100%;height:350px;
+  }
+  .logo{
+      width:60px;height: 60px;
+  }
+  .para1{
+
+      color:white;text-align: center;
+      background-color:lightseagreen;
+      width: 465px;height:50px;padding-top:2px;border:1px solid rgb(255, 255, 255);font-size: 14px;
+      box-shadow: 5px 5px 15px  -5px rgb(10, 10, 10);
+ /*border-radius: 0px 0px 0px 25px;*/
+  }
+  .wishingTag{ text-align: center;font-size:12px ;border-radius: 50px; width:180px; background-color: rgb(224, 228, 241);}
+  .wishingTag1{ text-align: center;font-size:13px;border-radius: 50px; background-color: rgb(224, 228, 241);}
+
+  .fcassistant{
+    font-size: 20px;
+  }
+  .inpt1{
+    text-align: center;
+    height: 30px;
+    top: 10;
+    border: none;
+    background: rgb(255, 255, 255);
+    font-size:13px;
+    font-weight: 500px;
+    width: 100%;
+    border-bottom:1px solid lightseagreen;
+    
+    outline: none;
+  }
+
+  .btnsubmit{
+    min-width: 40px;
+    min-height: 1;
+    border-color: red;
+    background-color: lightseagreen;
+    color:#fff;
+    font-size:20px;
+    border:none;
+    outline: none;
+    margin-left: 70px;
+    box-shadow: 5px 5px 15px  -5px rgb(10, 10, 10);
+  }
