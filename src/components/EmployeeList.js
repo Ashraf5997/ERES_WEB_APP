@@ -118,7 +118,6 @@ const confrimDel = ()=>{
   //history.push("/AddEmployee");
  }
 
-
  //////// GO TO Add EMPLOYEE
  const AddEmployee = (e)=>{
   e.preventDefault();
@@ -154,7 +153,7 @@ const confrimDel = ()=>{
     <img src={spinner} />Please wait...<br></br>  
  </div>
 : <div>
-  {
+  {   
     // CHECKING ACTION DIV IS TRUE
     (actionDiv)?
     <Jumbotron style={{backgroundColor:'transparent'}}>

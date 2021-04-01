@@ -59,7 +59,7 @@ import Menu from './Menu';
     const [showPT , setShowPT]= useState(false)
     const [TDay, setTDay] = useState([""])
     const [totaltask , setTotaltask]= useState([]);
-    const [ddays , setDdays] = useState([""]);
+    const [ddays , setDdays] = useState([" "]);
     const [inputItems , setInputItem ]  =  useState("");
     const [updateId , setUpdateId] = useState("");
     const [status , setStatus] = useState("");
@@ -276,13 +276,17 @@ const getDuplicateById=(cm)=>{
             }
             else{
                 let data = response.data;
-                 setDdays(data);    
+                if(data.status == 404)alert("SORRY NO RECORDS FOUND ")
+                else{ 
+                   setDdays(data);    
+                }
+             
             }
             }).
                     catch((error)=>{ 
                     alert(error);
                     console.log(error)
-            })          
+            })         
     }
 // FETCHING ALL TASK IN GIVEN DAY
     const getTaskByDay=(cdate)=>{
@@ -410,7 +414,7 @@ const getDuplicateById=(cm)=>{
     </Row>
     <Row>
         <Col col xm={3}sm={3} md={3} lg={3}>
-          <ol><li onClick={()=>monthnumber(1)}> February [ {Djan} ] </li>  </ol> 
+          <ol><li onClick={()=>monthnumber(1)}> January [ {Djan} ] </li>  </ol> 
         </Col>
          <Col col xm={3}sm={3} md={3} lg={3}>
            <ol><li onClick={()=>monthnumber(2)}> February [ {Dfeb} ] </li>  </ol>

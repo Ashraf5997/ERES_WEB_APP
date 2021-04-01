@@ -346,7 +346,8 @@ const confrimDel = ()=>{
 
      <Col>
       <Row style={{fontSize:'20px',marginLeft:'4px' ,color:'orange'}}>
-        <Col> Month : {months[month]}</Col>
+        <Col> 
+        '</Col>
         <Col>Total Working Days : {attendance.length}</Col>
       </Row>
         <Container>
